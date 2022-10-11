@@ -64,7 +64,7 @@ function App() {
 
   useEffect(() => {
     randomAvatar();
-  }, []);
+  }, []); // eslint-disable-line
 
   // handle click
   const handleClick = (partObject) => {
