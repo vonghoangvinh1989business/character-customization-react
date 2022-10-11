@@ -31,17 +31,17 @@ function App() {
   };
 
   const [avatar, setAvatar] = useState({
-    bodyIndex: 0,
-    eyeIndex: 0,
-    hairIndex: 0,
-    clothesLayer1Index: 0,
-    clothesLayer2Index: 0,
-    clothesLayer3Index: 0,
-    mouthIndex: 0,
+    bodyIndex: 1,
+    eyeIndex: 1,
+    hairIndex: 1,
+    clothesLayer1Index: 1,
+    clothesLayer2Index: 1,
+    clothesLayer3Index: 1,
+    mouthIndex: 1,
     noseIndex: 1,
-    eyeBrowIndex: 0,
-    glassesIndex: 0,
-    hatIndex: 0,
+    eyeBrowIndex: 1,
+    glassesIndex: 1,
+    hatIndex: 1,
   });
 
   // random human part
